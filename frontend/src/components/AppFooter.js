@@ -17,7 +17,7 @@ function AppFooter() {
               Generate amazing images with various AI models. Use free options or connect your own API keys.
             </p>
             <div className="flex space-x-4">
-              <SocialLink icon="github" href="https://github.com/yourusername/ai-image-creator" />
+              <SocialLink icon="github" href="https://github.com/MeherMankar/Text-to-image-ai-site" />
               <SocialLink icon="twitter" href="https://twitter.com/yourusername" />
               <SocialLink icon="discord" href="https://discord.gg/yourdiscord" />
             </div>
@@ -99,7 +99,7 @@ const SocialLink = ({ icon, href }) => {
   
   return (
     <a 
-      href={href} 
+      href={icon === 'github' ? 'https://github.com/MeherMankar' : href}
       target="_blank" 
       rel="noopener noreferrer" 
       className="text-gray-500 hover:text-indigo-600 transition-colors"
@@ -116,4 +116,4 @@ const APIBadge = ({ name, color, textColor }) => (
   </div>
 );
 
-export default AppFooter; 
+export default AppFooter;

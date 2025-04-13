@@ -28,7 +28,7 @@ function Footer() {
               DALL-E
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/MeherMankar" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
@@ -42,4 +42,4 @@ function Footer() {
   );
 }
 
-export default Footer; 
+export default Footer;
