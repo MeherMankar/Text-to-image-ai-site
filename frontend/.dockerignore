@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+build
+.git
+.gitignore
+README.md
+.DS_Store
+*.pem
+coverage
+.vscode 

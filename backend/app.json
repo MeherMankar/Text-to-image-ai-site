@@ -1,0 +1,36 @@
+{
+  "name": "Text-to-Image Generator API",
+  "description": "A Node.js API for generating images from text prompts using AI models",
+  "repository": "https://github.com/yourusername/text-to-image-generator",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "api", "text-to-image", "ai"],
+  "env": {
+    "STABILITY_API_KEY": {
+      "description": "Your Stability AI API key",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key",
+      "required": true
+    },
+    "NODE_ENV": {
+      "description": "Environment (production, development)",
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "success_url": "/"
+} 
